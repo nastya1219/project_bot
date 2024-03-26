@@ -1,3 +1,5 @@
+Ссылка на pythonanywhere http://nastya1219.pythonanywhere.com/
+Ссылка на телеграм-бот @Harry_Potter_magic_ficl_bot
 Телеграм-бот
 Предназначен для теста на знание русской литературы. Есть тексты двух произведений:
 Преступления и наказания и Обломова, с помощью рандома мы выбираем любое из произведений, после этого генерируем на основе него текст путем создания марковской цепи.
@@ -20,7 +22,6 @@ word_cloud_pin, word_cloud_oblomov - созданные облака слов
 Requirements
 
 pip install telebot
-from telebot import types
 pip install markovify
 pip install random
 pip install hugchat
