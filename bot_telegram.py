@@ -56,7 +56,7 @@ with open('pin.txt') as f:  # смотрим текст Преступления
     text_pin = f.read()
 
 # Создание модели марковской цепи
-text_model_pin = markovify.Text(text_pin)  # создаем Маковскую модель по Преступлению и наказанию
+text_model_pin = markovify.Text(text_pin)  # создаем Марковскую модель по Преступлению и наказанию
 
 with open('oblomov.txt', encoding='utf-8') as f:
     text_oblomov = f.read()
@@ -65,7 +65,7 @@ with open('oblomov.txt', encoding='utf-8') as f:
 text_model_oblomov = markovify.Text(text_oblomov)
 
 # Инициализация бота
-bot = telebot.TeleBot('7077939148:AAGd5IGbwVP7TUHs1kvqTMZ9UOepU25-4y0')  # выводим токен бота
+bot = telebot.TeleBot('Your token')  # выводим токен бота
 
 
 @bot.message_handler(commands=['start'])  # по команде старт начинаем игру
