@@ -17,4 +17,16 @@ oblomov.txt, PiN.txt - тексты нужных произведений
 winner.jpg, lost.jpg - картинки, которые используются в боте
 word_cloud_pin, word_cloud_oblomov - созданные облака слов
 
+Requirements
+
+pip install telebot
+from telebot import types
+pip install markovify
+pip install random
+pip install hugchat
+pip install nltk
+pip install wordcloud
+pip install matplotlib.pyplot
+pip install pymystem3
+
 Автор: Анастасия Кленова (@stasik1219)
